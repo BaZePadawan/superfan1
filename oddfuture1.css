@@ -1,1 +1,55 @@
+body {
+  width: 100vw;
+	height: 100vh;
+	margin: 0;
+  padding: 0;
+}
+ 
 
+.flex-container1{
+  width: 100%;
+  height: calc(100%/3);
+  background-color: yellow; 
+  display: flex;
+  flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-container2 {
+  width: 100%;
+  height: calc(100%/3);
+  background-color: yellow; 
+  display: flex;
+  flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-container3 {
+  width: 100%;
+  height: calc(100%/3);
+  background-color: yellow; 
+  display: flex;
+  flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.album1 {
+	width: 25%;
+	height: 90%;
+	background-color: red;
+}
+
+.album2 {
+	width: 25%;
+	height: 90%;
+	background-color: red;
+}
+
+.album3 {
+	width: 25%;
+	height: 90%;
+	background-color: teal;
+}
