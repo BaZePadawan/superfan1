@@ -53,3 +53,13 @@ body {
 	height: 90%;
 	background-color: teal;
 }
+
+.biography {
+  width: 100%;
+  height: calc(100%/3);
+  background-color: teal; 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
