@@ -9,7 +9,7 @@ body {
 .flex-container1{
   width: 100%;
   height: calc(100%/3);
-  background-color: yellow; 
+  background-color: teal; 
   display: flex;
   flex-wrap: wrap;
 	align-items: center;
@@ -59,7 +59,7 @@ body {
 .album3 {
 	width: 25%;
 	height: 90%;
-	background-color: teal;
+	background-color: red;
 	background-image: url("https://user-images.githubusercontent.com/25018540/32809676-920afc3a-c94c-11e7-86f9-208eaea20660.png");
 	background-size: 50% 100%;
 	background-position: center;
@@ -69,7 +69,7 @@ body {
 .biography {
   width: 100%;
   height: calc(100%/3);
-  background-color: teal; 
+  background-color: yellow; 
   display: flex;
   flex-wrap: wrap;
   align-items: center;
