@@ -75,3 +75,28 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.album1 {
+	width: 25%;
+	height: 90%;
+	background-color: red;
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/814jLm-6mkL._SX522_.jpg");
+	background-size: 50% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}		
+
+@media screen and (max-width: 850px){
+	.album1 {
+	background-size: 50% 50%;
+	}
+	
+	.album2 {
+	background-size: 50% 50%;
+	}
+	
+	.album3 {
+	background-size: 50% 50%;
+	}
+	
+}
