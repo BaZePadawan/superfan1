@@ -89,15 +89,15 @@ body {
 
 @media screen only and (max-width: 850px){
 	.album1 {
-	background-size: 50% 50%;
+	background-size: 100%;
 	}
 	
 	.album2 {
-	background-size: 50% 50%;
+	background-size: 100%;
 	}
 	
 	.album3 {
-	background-size: 50% 50%;
+	background-size: 100%;
 	}
 	
 }
