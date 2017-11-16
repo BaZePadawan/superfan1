@@ -96,17 +96,21 @@ body {
 	background-repeat: no-repeat;
 }		
 
-@media screen only and (max-width: 850px){
+@media screen and (max-width: 850px){
 	.album1 {
-	background-size: 100%;
+	width: 50%;
+	background-size: 100% 100%;
 	}
 	
 	.album2 {
-	background-size: 100%;
+	width: 50%;
+	background-size: 100% 100%;
 	}
 	
 	.album3 {
-	background-size: 100%;
+	width: 50%;
+	background-size: 100% 100%;
 	}
 	
+}
 }
