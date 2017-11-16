@@ -1,7 +1,7 @@
 body {
   width: 100vw;
-  height: 100vh;
-  margin: 0;
+	height: 100vh;
+	margin: 0;
   padding: 0;
 }
  
@@ -100,18 +100,17 @@ body {
 @media screen and (max-width: 850px){
 	.album1 {
 	width: 50%;
-	background-size: 50% 100%;
-	
+	background-size: 75% 75%;
 	}
 	
 	.album2 {
 	width: 50%;
-	background-size: 50% 100%;
+	background-size: 75% 75%;
 	}
 	
 	.album3 {
 	width: 50%;
-	background-size: 50% 100%;
+	background-size: 75% 75%;
 	}
 	
 }
