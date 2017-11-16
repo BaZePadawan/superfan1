@@ -1,8 +1,8 @@
 body {
-  	width: 100vw;
+  width: 100vw;
 	height: 100vh;
 	margin: 0;
- 	padding: 0;
+  padding: 0;
 }
  
  
@@ -36,23 +36,23 @@ body {
   justify-content: center;
 }
 
-
 .album1 {
 	width: 25%;
 	height: 90%;
 	background-color: red;
-	background-image: url("https://images-na.ssl-images-amazon.com/images/I/814jLm-6mkL._SX522_.jpg");
-	background-size: 50% 100%;
+	background-image: url("http://images.pigeonsandplanes.com/images/c_limit,f_auto,fl_lossy,q_auto,w_1030/bebllwzjpsujz9ffwp6s/tyler-the-creator-scum-fuck-flower-boy-cover");
+	background-size: 50% 75%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
 
 .album2 {
 	width: 25%;
 	height: 90%;
 	background-color: red;
 	background-image: url("http://images.pigeonsandplanes.com/images/c_limit,f_auto,fl_lossy,q_auto,w_1030/bebllwzjpsujz9ffwp6s/tyler-the-creator-scum-fuck-flower-boy-cover");
-	background-size: 50% 100%;
+	background-size: 50% 75%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -62,7 +62,7 @@ body {
 	height: 90%;
 	background-color: teal;
 	background-image: url("https://upload.wikimedia.org/wikipedia/en/9/9a/BASTARDCOVER.png");
-	background-size: 50% 100%;
+	background-size: 50% 75%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -92,7 +92,7 @@ body {
 	height: 90%;
 	background-color: red;
 	background-image: url("https://images-na.ssl-images-amazon.com/images/I/814jLm-6mkL._SX522_.jpg");
-	background-size: 50% 100%;
+	background-size: 50% 75%;
 	background-position: center;
 	background-repeat: no-repeat;
 }		
@@ -100,17 +100,18 @@ body {
 @media screen and (max-width: 850px){
 	.album1 {
 	width: 50%;
-	background-size: 100% 100%;
+	background-size: 50% 100%;
+	
 	}
 	
 	.album2 {
 	width: 50%;
-	background-size: 100% 100%;
+	background-size: 50% 100%;
 	}
 	
 	.album3 {
 	width: 50%;
-	background-size: 100% 100%;
+	background-size: 50% 100%;
 	}
 	
 }
