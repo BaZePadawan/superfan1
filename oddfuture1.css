@@ -67,14 +67,23 @@ body {
 	background-repeat: no-repeat;
 }
 
-.biography {
-  width: 100%;
-  height: calc(100%/3);
-  background-color: yellow; 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+.top-mid {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box1{
+	height: 100%;
+	width: calc(100%/6);
+	background-color: teal;
+}
+
+.box2{
+	height: 100%;
+	width: calc(100%/6);
+	background-color: red;
 }
 
 .album1 {
