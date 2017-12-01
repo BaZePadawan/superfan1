@@ -78,12 +78,21 @@ body {
 	height: 100%;
 	width: calc(100%/6);
 	background-color: teal;
+	background-image:url("images/thinkingbee.png");
+	background-size: 60% 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	
 }
 
 .box2{
 	height: 100%;
 	width: calc(100%/6);
 	background-color: red;
+	background-image:url("images/golfy12.png");
+	background-size: 50% 75%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
