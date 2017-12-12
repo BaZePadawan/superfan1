@@ -6,7 +6,7 @@ function playMarch(e){
 	document.getElementById("march").play();
 }
 
-function clickAlbum1 {
+function clickAlbum1(e) {
 	document.getElementById("album1").classList.toggle("show");
 }
 
