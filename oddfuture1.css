@@ -122,4 +122,13 @@ body {
 	background-size: 75% 75%;
 	}
 	
+	.box1 {
+	width: 100%;
+	background-size: 75% 75%;
+	}
+	
+	.box2 {
+	width: 100%;
+	background-size: 75% 75%
+	}
 }
