@@ -5,10 +5,7 @@ body {
   padding: 0;
 }
 
-p {
- color: white;
- font-size: 0em;
-}
+
  
  .show {
 	font-size: 1em; 
@@ -58,6 +55,7 @@ p {
 	color: black;
 	font-size: 3em;
 	font-weight: bold;
+}
 
 
 .album2 {
