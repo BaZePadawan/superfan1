@@ -10,7 +10,9 @@ p {
  font-size: 0em;
 }
  
- 
+ .show {
+	display: block;	 
+}
  
 .flex-container1{
   width: 100%;
