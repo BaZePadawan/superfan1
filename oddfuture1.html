@@ -5,9 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="images/donut.ico" rel="icon" type="image/x-icon" />
 		<title>Golf</title>
-		<link rel="stylesheet" href="oddfuture1.css" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
-  
 
 	<body>
 
@@ -23,15 +22,21 @@
 		</div>
 	
 		<div class="top-mid">
-				<div class="box1"></div>
-				<div class="box2"></div>
-				<div class="box1"></div>
-				<div class="box2"></div>
-				<div class="box1"></div>
-				<div class="box2"></div>
+				<div class="box1" onclick="playFire(this)"></div>
+				<div class="box2" onclick="playMarch(this)"></div>
+				<div class="box1" onclick="playFire(this)"></div>
+				<div class="box2" onclick="playMarch(this)"></div>
+				<div class="box1" onclick="playFire(this)"></div>
+				<div class="box2" onclick="playMarch(this)"></div>
 		</div>
-	
+		
+		<!-- Crowd sound courtesy of http://soundbible.com/tags-crowd.html -->
+		<audio src="sounds/gunfire.ogg" type="audio/ogg" id="gunfire"></audio>
+		<audio src="sounds/march.ogg" type="audio/ogg" id="march"></audio>
+		
+		<script src="oddfuture1.js"></script>
   
 	</body>
 	
 </html>
+
