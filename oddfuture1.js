@@ -7,6 +7,13 @@ function playMarch(e){
 }
 
 function clickAlbum1(e) {
-	document.getElementById("album1").classList.add("show");
+	document.getElementById("album1").innerHTML = "FIND YOUR WINGS";
 }
 
+function clickAlbum2(e) {
+	document.getElementById("album2").innerHTML = "See You Again";
+}
+
+function clickAlbum3(e) {
+	document.getElementById("album3").innerHTML = "BLOW";
+}
