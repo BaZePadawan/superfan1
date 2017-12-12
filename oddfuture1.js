@@ -7,6 +7,6 @@ function playMarch(e){
 }
 
 function clickAlbum1(e) {
-	document.getElementById("album1").classList.toggle("show");
+	document.getElementById("album1").classList.add("show");
 }
 
